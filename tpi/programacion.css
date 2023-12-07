@@ -18,19 +18,17 @@ nav ul {
 }
 
 .contenido_index {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #999696;
-
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
     display: flex;
     height: 80px;
     background-color: #000000;
-    color:#ffffff;
+    color: #ffffff;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -39,7 +37,7 @@ header {
     display: flex;
 }
 
-img{
+img {
     height: 50px;
     margin: 15px;
 }
@@ -52,28 +50,28 @@ img{
     color: #fcfcfc;
 }
 
-h2, p {
+h2,
+p {
     color: #ffffff;
 }
 
 footer {
-    color: #ffffff;
     background-color: #1c1c1c;
     padding: 20px 1% 5px 1%;
     margin-top: 60px;
     display: flex;
-    height: 250px;
+    height: 200px;
     justify-content: space-between;
+    color: #fcfcfc;
 }
 
 .divisiones {
     text-align: center;
-
 }
 
-aside{
+aside {
     text-align: center;
-    background-image:url(assets/fondo\ negro.jpg.png);
+    background-image: url(assets/fondo\ negro.jpg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
@@ -82,13 +80,46 @@ aside{
     margin: 0 auto;
 }
 
-.text-aside{
+.text-aside {
     margin: 20px;
     padding: 10px;
     border: 2px solid rgb(202, 197, 197);
 }
 
-ul{
-text-decoration: none;
+ul {
+    list-style: none;
+}
+
+
+.iconos {
+    height: 30px;
+    width: 30px;
+}
+
+.img-viaje {
+    width: 325px;
+    height: 325px;
 
 }
+
+.texto {
+    color: #000000;
+}
+
+.caja-destino {
+    display: flex;
+    border: 2px solid rgb(177, 17, 17);
+}
+
+.boton1,
+.tit {
+    text-align: center;
+    color: #000000;
+}
+
+.info-viajes {
+    margin: 5px;
+}
+
+/* flex direccion reverse
+/* parte pagina contacto */
