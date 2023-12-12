@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo practico integrador de WEB</title>
+    <title>CLIENTE LAUTOUR</title>
     <link rel="stylesheet" href="programacion.css">
 </head>
 
-<body>
+<body class="body-contactos">
     <header>
         <div class="logotipo">
             <img src="assets/logo-viaje.png">
@@ -26,7 +26,49 @@
     </header>
 
     <main class="contenido_index">
-       
+        <div class="formu"> 
+          <div class="formulario"> 
+          <form action="/registro" method="post">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required> 
+    
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required> 
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> 
+    
+            <label for="tarjeta">Tarjeta:</label>
+            <input type="number" id="tarjeta" name="tarjeta" required> 
+    
+            <label for="ocupacion">Ocupación:</label> 
+            <select id="ocupacion" name="ocupacion" required> 
+                <option value="">Selecciona una opción</option> 
+                <option value="estudiante">Estudiante</option> 
+                <option value="desempleado">Desempleado</option> 
+                <option value="empleado">Empleado</option>
+                <option value="otro">Otro</option>
+            </select>
+
+
+            <input type="submit" value="Registrarse">
+          </form>
+         </div>
+
+         <div class="texto-formulario">
+            <h2>Ventajas de ser cliente</h2>
+            <ul> 
+                <li>DESCUENTOS</li>
+                <li>PRIORIDAD DE RESERVA</li>
+                <li>SHOWS GRATIS</li>
+                <li>ATENCION PERSONALIZADA</li>
+                <li>$3.500 por mes</li>
+            </ul>
+            <img class="avion-fondo" src="assets/azafata-2.png.jpg" alt="" width="325px" height="300px"> 
+         </div>
+
+        </div>
     </main>
 
     <aside>
